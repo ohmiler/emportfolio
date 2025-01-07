@@ -14,9 +14,22 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "EmKiattinan | Portfolio",
-  description: "สวัสดีครับ ผมชื่อเอ็ม หรือ นายเกียรตินันต์ รับจ้างตัดต่อถ่ายรูป กราฟฟิค รวมไปถึงการคิดคอนเทนต์และ Script สามารถรับชมผลงานได้เลยครับ",
+  description: "ผู้เชี่ยวชาญด้านการตัดต่อวิดีโอและออกแบบกราฟิก ที่หลงใหลในความคิดสร้างสรรค์และการเล่าเรื่องด้วยภาพ",
   openGraph: {
-    images: '/em-og.png',
+    title: 'EmKiattinan',
+    description: 'ผู้เชี่ยวชาญด้านการตัดต่อวิดีโอและออกแบบกราฟิก ที่หลงใหลในความคิดสร้างสรรค์และการเล่าเรื่องด้วยภาพ',
+    url: 'https://emportfolio-ivory.vercel.app',
+    siteName: 'emportfolio',
+    images: [
+      {
+        url: '/em-og.png',
+        width: 1200,
+        height: 630,
+        alt: 'EmKiattinan',
+      },
+    ],
+    locale: 'th_TH',
+    type: 'website',
   },
 };
 
