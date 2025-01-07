@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "เอ็ม เกียรตินันต์ | Portfolio",
+  title: "EmKiattinan | Portfolio",
   description: "สวัสดีครับ ผมชื่อเอ็ม หรือ นายเกียรตินันต์ รับจ้างตัดต่อถ่ายรูป กราฟฟิค รวมไปถึงการคิดคอนเทนต์และ Script สามารถรับชมผลงานได้เลยครับ",
+  openGraph: {
+    images: '/em-og.png',
+  },
 };
 
 export default function RootLayout({ children }) {

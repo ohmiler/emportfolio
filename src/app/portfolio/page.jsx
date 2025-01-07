@@ -13,10 +13,12 @@ function PortfolioPage() {
         <div className="relative overflow-hidden bg-cover bg-center h-full bg-gray-500">
             <div className="absolute inset-0 bg-black opacity-60"></div>
             <div data-aos="fade-up" className="container mx-auto mt-[100px] relative z-10 py-8">
-                <h1 className="text-white text-6xl font-bold">Portfolio</h1>
-                <p className="text-white text-2xl mt-5 w-[850px] mb-3">
-                    ผลงาน Creative Content  และการถ่ายทำ และตัดต่อ
-                </p>
+                <div className='m-5'>
+                    <h1 className="text-white text-6xl font-bold">Portfolio</h1>
+                    <p className="text-white text-2xl mt-5 mb-3">
+                        ผลงาน Creative Content  และการถ่ายทำ และตัดต่อ
+                    </p>
+                </div>
                 <hr />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
                     <div className="rounded-lg shadow-lg">
@@ -83,7 +85,7 @@ function PortfolioPage() {
                         <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@topboutique_th/video/7417762806600174866" data-video-id="7417762806600174866" style={{ maxWidth: '605px', minWidth: '325px' }} > <section> <a target="_blank" title="@topboutique_th" href="https://www.tiktok.com/@topboutique_th?refer=embed">@topboutique_th</a> Xylitol คืออะไรและมีประโยชน์อย่างไร. สดชื่นยิ่งกว่าเดิม! 🌴✨ กับรังนกแท้ Ninest สูตรมะพร้าวน้ำหอม หอมหวานลงตัว จิบแล้วฟินเหมือนอยู่บนชายหาด 🌊🌴 ใครยังไม่ลอง ถือว่าพลาดนะ! <a title="รังนกninest" target="_blank" href="https://www.tiktok.com/tag/%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%81ninest?refer=embed">#รังนกninest</a> <a title="รังนกแท้" target="_blank" href="https://www.tiktok.com/tag/%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%81%E0%B9%81%E0%B8%97%E0%B9%89?refer=embed">#รังนกแท้</a> <a title="เครื่องดื่มเพื่อสุขภาพ" target="_blank" href="https://www.tiktok.com/tag/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%B7%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E?refer=embed">#เครื่องดื่มเพื่อสุขภาพ</a> <a title="เทรนด์วันนี้" target="_blank" href="https://www.tiktok.com/tag/%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%89?refer=embed">#เทรนด์วันนี้</a> <a target="_blank" title="♬ original sound - alfiemoff2𖣂" href="https://www.tiktok.com/music/original-sound-7266190379857365793?refer=embed">♬ original sound - alfiemoff2𖣂</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                     </div>
                 </div>
-                <p className="text-white text-2xl mt-5 w-[850px] mb-3">
+                <p className="text-white text-2xl mt-5 mb-3">
                     ผลงานภาพถ่าย
                 </p>
                 <hr />
@@ -168,7 +170,7 @@ function PortfolioPage() {
                     </div>
                 </div>
 
-                <p className="text-white text-2xl mt-5 w-[850px] mb-3">
+                <p className="text-white text-2xl mt-5 mb-3">
                     ผลงานกราฟิก
                 </p>
                 <hr />
